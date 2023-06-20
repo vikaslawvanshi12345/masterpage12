@@ -1,0 +1,494 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lodha Nexus | Home</title>
+<meta name="description" content="We are dedicated to empower people with the tools and knowledge they need to be reach their full potential. 
+With our unique blend of resources, guidance, and encouragement, we strive to create a brighter future for all.">
+<meta name="keywords" content="Lodha samaj shiksha foundation working for career guidance, skill development and employment. 
+">
+<meta name="author" content="Vikas Lawvanshi">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<Script>
+
+isMouseover = false;
+isDragging = false;
+
+function MouseDownLayer(e)
+{
+   documentTag = "HTML";
+   srcElement = e.target;  
+   layerElement = document.getElementById("Layer1");  
+
+   while (srcElement.id != "Layer1TitleBar" && srcElement.tagName != documentTag)
+   {
+      srcElement = srcElement.parentNode;
+   }  
+   if (srcElement.id == "Layer1TitleBar")
+   {
+      offsetX = e.clientX;
+      offsetY = e.clientY;
+      currentX = parseInt(layerElement.style.left);
+      currentY = parseInt(layerElement.style.top);
+      isDragging = true;
+      document.onmousemove = MouseMoveLayer;
+  }
+}
+
+function MouseMoveLayer(e)
+{
+   if (!isDragging) return;
+   
+   layerElement.style.left = currentX+e.clientX-offsetX + "px"; 
+   layerElement.style.top = currentY+e.clientY-offsetY + "px";
+   return false;  
+}
+
+document.onmousedown = MouseDownLayer;
+document.onmouseup = Function("isDragging=false");
+
+</Script>
+</head>
+<body>
+<div id="container">
+<div id="wb_DropdownMenu1" style="position:absolute;left:227px;top:175px;width:586px;height:38px;z-index:12;">
+<div id="DropdownMenu1" class="DropdownMenu1" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button title="Dropdown Menu" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".DropdownMenu1-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="DropdownMenu1-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a href="" class="nav-link"><i class="fa fa-home"></i>Home</a>
+</li>
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown"><i class="fa fa-book"></i>About Us<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Who we are</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Vision & Mission</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Our members</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Journey of Shiksha Foundation</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Annual Reports</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Media</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown"><i class="fa fa-sitemap"></i>Career/Job<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Career Exploration</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Apprenticeship Training</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Career Saathi</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Events & Workshop schedules</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Parental guidance</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown"><i class="fa fa-laptop"></i>Toolkit<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item dropdown-item">
+<a href="./Tools.html" class="nav-link">Edu Tools</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./Tools.html" class="nav-link">Web Tools</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./Tools.html" class="nav-link">Privacy Tools</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="https://willowy-starlight-031baf.netlify.app/" class="nav-link">Dev Tools</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./Tools.html" class="nav-link">Telegram Tools</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./Tools.html" class="nav-link">Torrent Tools</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./Tools.html" class="nav-link">Productivity Tools</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./Tools.html" class="nav-link">OSINT framework</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown"><i class="fa fa-users"></i>Contact Us<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Samiti Officials</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="" class="nav-link">Address</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div></div>
+<div id="wb_Accordion1" style="position:absolute;left:59px;top:265px;width:888px;height:813px;z-index:13;">
+<div id="Accordion1" class="accordion-group" role="tablist">
+<div class="accordion-item active">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse1" aria-controls="Accordion1-collapse1" aria-expanded="true"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 1</a></h4></div>
+<div id="Accordion1-collapse1" class="accordion-collapse collapse show" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+<div id="wb_Text2" style="position:absolute;left:52px;top:50px;width:1059px;height:220px;z-index:8;">
+<p>Stock Images</p>
+<p>	• Burst by Shopify - Download free, high-resolution images.</p>
+<p>	• Gratisography - The world's quirkiest collection of free high-resolution pictures you can use on your personal and commercial projects.</p>
+<p>	• Life of Pix - Free high resolution photography.</p>
+<p>	• Moose - A collection of stock photography in a single style. Good for collages. Free for commercial use.</p>
+<p>	• New Old Stock - Vintage photos from the public archives.</p>
+<p>	• Pexels - Free stock photos you can use everywhere.</p>
+<p>	• Pixabay - Over 1.6 million royalty free stock photos and videos shared by our generous community.</p>
+<p>	• reshot - Handpicked, non-stocky images. Yours to use as you wish.</p>
+<p>	• StockSnap - High quality and high resolution stock images free from all copyright restrictions(CC0).</p>
+<p>	• Unsplash - Beautiful, free images and photos that you can download and use for any project.</p></div>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse2" aria-controls="Accordion1-collapse2" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 2</a></h4></div>
+<div id="Accordion1-collapse2" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+<div id="wb_Text4" style="position:absolute;left:35px;top:53px;width:642px;height:368px;z-index:9;">
+<p>Fonts</p>
+<p>	• 1001FreeFonts - Download 41882 fonts in 21841 families for Windows, Mac and Linux. 1001 Free Fonts offers a huge selection of free fonts. New fonts are added daily.</p>
+<p>	• Aleo - Free contemporary slab serif typeface.</p>
+<p>	• Archetype - Archetype makes beautiful web typography designs quick and easy to create.</p>
+<p>	• Behance - Behance is a network of sites and services specializing in self-promotion, including consulting, online portfolio sites and many free font resources. All you have to do is to add some clever search filters, such as 'free font'.</p>
+<p>	• Clear Sans - Clear Sans has been recognized as a versatile OpenType font for screen, print, and Web.</p>
+<p>	• Cooper Hewitt - The Typeface created by Chester Jenkins.</p>
+<p>	• Dafont - Archive of freely downloadable fonts. Browse by alphabetical listing, by style, by author or by popularity.</p>
+<p>	• FontPair - Font Pair helps designers pair Google Fonts together. Beautiful Google Font combinations and pairs.</p>
+<p>	• FontSpark - Helping designers discover the perfect font for their next design project.</p></div>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse3" aria-controls="Accordion1-collapse3" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 3</a></h4></div>
+<div id="Accordion1-collapse3" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+<div id="wb_Text3" style="position:absolute;left:23px;top:-22px;width:1106px;height:432px;z-index:10;">
+<p>Icons</p>
+<p>	• Eva Icons - Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.</p>
+<p>	• Evericons - Evericons is a collection of 460+ well-crafted icons for your next project.</p>
+<p>	• Feather icons - Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.</p>
+<p>	• Flaticon - The largest database of free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.</p>
+<p>	• Icons8 - Get free icons designed to combine perfectly and fit into the style of your design.</p>
+<p>	• Ionicons - Premium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed and built by the Ionic Framework team.</p>
+<p>	• Ikonate - Fully customisable &amp; accessible vector icons</p>
+<p>	• Material Design icons - Material Design Icons' growing icon collection allows designers and developers targeting various platforms to download icons in the format, color and size they need for any project.</p>
+<p>	• Milk Icons - 1,000 free icons for startups.</p>
+<p>	• Myicons - 1800 Premium high quality line icons for professional website &amp; apps.</p>
+<p>	• Remix Icons - Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for </p></div>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse4" aria-controls="Accordion1-collapse4" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 4</a></h4></div>
+<div id="Accordion1-collapse4" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+<div id="wb_Text5" style="position:absolute;left:35px;top:40px;width:650px;height:304px;z-index:11;">
+<p>Illustrations</p>
+<p>	• Absurb - What about surrealist illustrations for landing pages? Take every user on an individual journey through their own imagination.</p>
+<p>	• Avataaars - Mix and match avatar illustrations. Combine clothes, hair, emotions, accessories, and colors.</p>
+<p>	• Blobmaker - Create organic svg shapes in just a few seconds.</p>
+<p>	• Charco - A set of 16 handcrafted illustrations for your web &amp; app projects by Karthik Srinivas.</p>
+<p>	• Delesign - Use our royalty-free designs for your website, social media, blog, email newsletters, and more.</p>
+<p>	• DrawKit - DrawKit is a collection of free, beautiful, customisable MIT licensed SVG illustrations in two styles</p>
+<p>	• FreePik - More than 3 millions free vectors, PSD, photos and free icons.</p>
+<p>	• Fresh Folk - An illustration library of people and objects</p>
+<p>	• Freellustrations - Download Free illustrations and vector images for website backgrounds and landing pages.</p>
+<p>	• IRA Design - With IRA Design, you can create amazing illustrations, using hand-drawn sketch components, a cool selection of 5 gradients and ai., svg. or png. formats.</p>
+<p>	• Isometric - Free isometric illustrations for designers, startups and companies</p>
+<p>	• Isometric Love - Cute isometric objects for your design.</p></div>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse5" aria-controls="Accordion1-collapse5" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 5</a></h4></div>
+<div id="Accordion1-collapse5" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse6" aria-controls="Accordion1-collapse6" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 6</a></h4></div>
+<div id="Accordion1-collapse6" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse7" aria-controls="Accordion1-collapse7" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 7</a></h4></div>
+<div id="Accordion1-collapse7" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse8" aria-controls="Accordion1-collapse8" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 8</a></h4></div>
+<div id="Accordion1-collapse8" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse9" aria-controls="Accordion1-collapse9" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 9</a></h4></div>
+<div id="Accordion1-collapse9" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" role="tab"><h4 class="accordion-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#Accordion1-collapse10" aria-controls="Accordion1-collapse10" aria-expanded="false"><span class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M37 27 C37 27, 37 27, 37 28 C37 29, 37 29, 37 29 L23 43 C22 44, 22 44, 21 44 C21 44, 20 44, 20 43 C20 43, 19 43, 19 42 L19 14 C19 13, 20 13, 20 13 C20 12, 21 12, 21 12 C22 12, 22 12, 23 13"/>
+</svg>
+<svg class="icon-active" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M44 20 C44 20, 44 20, 44 21 C44 22, 44 22, 44 22 L30 36 C29 37, 29 37, 28 37 C28 37, 27 37, 27 36 L13 22 C13 22, 12 22, 12 21 C12 20, 13 20, 13 20 C13 19, 14 19, 14 19 L42 19 C43 19, 43 19, 44 20"/>
+</svg>
+</span>Panel 10</a></h4></div>
+<div id="Accordion1-collapse10" class="accordion-collapse collapse" data-bs-parent="#Accordion1" role="tabpanel">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+</div>
+</div>
+<textarea name="TextArea1" id="TextArea1" style="position:absolute;left:562px;top:850px;width:-4px;height:-8px;z-index:14;" rows="1" cols="1" spellcheck="false"></textarea>
+</div>
+<div id="PageHeader1" style="position:fixed;text-align:center;left:0;top:0;right:0;height:165px;z-index:7777;">
+<div id="PageHeader1_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Layer1" style="position:absolute;text-align:center;left:347px;top:19px;width:277px;height:62px;z-index:2;">
+<div id="Layer1_Container" style="width:277px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text1" style="position:absolute;left:65px;top:18px;width:212px;height:30px;z-index:0;">
+<p>LODHA NEXUS</p></div>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:65px;height:62px;z-index:1;">
+<img src="images/Screenshot_20230617-223808.png" id="Image1" alt="" width="65" height="62"></div>
+</div>
+</div>
+<div id="wb_ResponsiveMenu1" style="position:absolute;left:1px;top:94px;width:969px;height:69px;z-index:3;">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li role="menuitem"><a href="" class="nav-link"><i class="fa fa-home fa-2x">&nbsp;</i><br>Home</a></li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-book fa-2x">&nbsp;</i>About&nbsp;Us<b class="arrow-down"></b></label>
+<a href="javascript:void(0)" class="nav-link"><i class="fa fa-book fa-2x">&nbsp;</i><br>About&nbsp;Us<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li role="menuitem"><a href="" class="nav-link">Who&nbsp;we&nbsp;are</a></li>
+<li role="menuitem"><a href="" class="nav-link">Vision&nbsp;&amp;&nbsp;Mission</a></li>
+<li role="menuitem"><a href="" class="nav-link">Our&nbsp;members</a></li>
+<li role="menuitem"><a href="" class="nav-link">Journey&nbsp;of&nbsp;Shiksha&nbsp;Foundation</a></li>
+<li role="menuitem"><a href="" class="nav-link">Annual&nbsp;Reports</a></li>
+<li role="menuitem"><a href="" class="nav-link">Media</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-1" class="toggle"><i class="fa fa-sitemap fa-2x">&nbsp;</i>Career/Job<b class="arrow-down"></b></label>
+<a href="javascript:void(0)" class="nav-link"><i class="fa fa-sitemap fa-2x">&nbsp;</i><br>Career/Job<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-1">
+<ul role="menu">
+<li role="menuitem"><a href="" class="nav-link">Career&nbsp;Exploration</a></li>
+<li role="menuitem"><a href="" class="nav-link">Apprenticeship&nbsp;Training</a></li>
+<li role="menuitem"><a href="" class="nav-link">Career&nbsp;Saathi</a></li>
+<li role="menuitem"><a href="" class="nav-link">Events&nbsp;&amp;&nbsp;Workshop&nbsp;schedules</a></li>
+<li role="menuitem"><a href="" class="nav-link">Parental&nbsp;guidance</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-2" class="toggle"><i class="fa fa-laptop fa-2x">&nbsp;</i>Toolkit<b class="arrow-down"></b></label>
+<a href="https://wonderful-sunflower-35c40b.netlify.app/" class="nav-link"><i class="fa fa-laptop fa-2x">&nbsp;</i><br>Toolkit<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-2">
+<ul role="menu">
+<li role="menuitem"><a href="./Tools.html" class="nav-link">Edu&nbsp;Tools</a></li>
+<li role="menuitem"><a href="./Tools.html" class="nav-link">Web&nbsp;Tools</a></li>
+<li role="menuitem"><a href="./Tools.html" class="nav-link">Privacy&nbsp;Tools</a></li>
+<li role="menuitem"><a href="https://willowy-starlight-031baf.netlify.app/" class="nav-link">Dev&nbsp;Tools</a></li>
+<li role="menuitem"><a href="./Tools.html" class="nav-link">Telegram&nbsp;Tools</a></li>
+<li role="menuitem"><a href="./Tools.html" class="nav-link">Torrent&nbsp;Tools</a></li>
+<li role="menuitem"><a href="./Tools.html" class="nav-link">Productivity&nbsp;Tools</a></li>
+<li role="menuitem"><a href="./Tools.html" class="nav-link">OSINT&nbsp;framework</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-3" class="toggle"><i class="fa fa-users fa-2x">&nbsp;</i>Contact&nbsp;Us<b class="arrow-down"></b></label>
+<a href="javascript:void(0)" class="nav-link"><i class="fa fa-users fa-2x">&nbsp;</i><br>Contact&nbsp;Us<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-3">
+<ul role="menu">
+<li role="menuitem"><a href="" class="nav-link">Samiti&nbsp;Officials</a></li>
+<li role="menuitem"><a href="" class="nav-link">Address</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="wb_OverlayMenu1" style="position:absolute;left:346px;top:444px;width:93px;height:100px;z-index:4;">
+<a href="#" id="OverlayMenu1">
+<span class="line"></span>
+<span class="line">
+</span><span class="line"></span>
+</a>
+</div>
+<div id="wb_headerPanelMenu" style="position:absolute;left:274px;top:21px;width:50px;height:53px;z-index:5;">
+<a href="#headerPanelMenu_markup" id="headerPanelMenu">
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+</a>
+<div id="headerPanelMenu_markup">
+<ul role="menu">
+<li role="menuitem"><a href="#home" class="nav-link">Home</a></li>
+<li role="menuitem"><a href="#LSSF" class="nav-link">LSSF</a></li>
+<li role="menuitem"><a href="#Career Exploration" class="nav-link">Career Exploration</a></li>
+<li role="menuitem"><a href="#Tools" class="nav-link">Tools</a></li>
+</ul>
+<div id="headerPanelMenu-footer">© Lodha Samaj Shiksha Foundation</div>
+</div>
+</div>
+</div>
+</div>
+<div id="OverlayMenu1-overlay">
+<div class="OverlayMenu1">
+<ul class="drilldown-menu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-home overlay-icon"></i>Home</a></li>
+<li>
+<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a>
+<ul class="drilldown-submenu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Who&nbsp;we&nbsp;are</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Vision&nbsp;&amp;&nbsp;Mission</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Our&nbsp;members</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Journey&nbsp;of&nbsp;Shiksha&nbsp;Foundation</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Annual&nbsp;Reports</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Media</a></li>
+</ul>
+</li>
+<li>
+<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-sitemap overlay-icon"></i>Career/Job</a>
+<ul class="drilldown-submenu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Career&nbsp;Exploration</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Apprenticeship&nbsp;Training</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Career&nbsp;Saathi</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Events&nbsp;&amp;&nbsp;Workshop&nbsp;schedules</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Parental&nbsp;guidance</a></li>
+</ul>
+</li>
+<li>
+<a role="menuitem" href="https://wonderful-sunflower-35c40b.netlify.app/" class="OverlayMenu1-effect"><i class="fa fa-laptop overlay-icon"></i>Toolkit</a>
+<ul class="drilldown-submenu" role="menu">
+<li><a role="menuitem" href="./Tools.html" class="OverlayMenu1-effect">Edu&nbsp;Tools</a></li>
+<li><a role="menuitem" href="./Tools.html" class="OverlayMenu1-effect">Web&nbsp;Tools</a></li>
+<li><a role="menuitem" href="./Tools.html" class="OverlayMenu1-effect">Privacy&nbsp;Tools</a></li>
+<li><a role="menuitem" href="https://willowy-starlight-031baf.netlify.app/" class="OverlayMenu1-effect">Dev&nbsp;Tools</a></li>
+<li><a role="menuitem" href="./Tools.html" class="OverlayMenu1-effect">Telegram&nbsp;Tools</a></li>
+<li><a role="menuitem" href="./Tools.html" class="OverlayMenu1-effect">Torrent&nbsp;Tools</a></li>
+<li><a role="menuitem" href="./Tools.html" class="OverlayMenu1-effect">Productivity&nbsp;Tools</a></li>
+<li><a role="menuitem" href="./Tools.html" class="OverlayMenu1-effect">OSINT&nbsp;framework</a></li>
+</ul>
+</li>
+<li>
+<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-users overlay-icon"></i>Contact&nbsp;Us</a>
+<ul class="drilldown-submenu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Samiti&nbsp;Officials</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Address</a></li>
+</ul>
+</li>
+   </ul>
+</div>
+<a class="close-button" id="OverlayMenu1-close" href="#" role="button" aria-hidden="true"><span></span></a>
+</div>
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link href="css/LodhaNexus4.css" rel="stylesheet">
+<link href="css/master_page.css" rel="stylesheet">
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/wb.panel.min.js"></script>
+<script src="js/wb.overlay.min.js"></script>
+<script src="js/wb.drilldownmenu.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/master_page.js"></script>
+</body>
+</html>
